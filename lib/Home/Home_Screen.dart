@@ -82,7 +82,7 @@ class _Home_ScreenState extends State<Home_Screen> {
                     ),
                   ),
                   InkWell( onTap: () {
-                    
+                    Navigator.pushNamed(context, "img");
                   },    child: Image.asset("assets/images/img.png",width: 200,height: 200)),
                   SizedBox(height: 20),
                   Row(
